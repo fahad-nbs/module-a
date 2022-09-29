@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
-    <hello-world msg="Welcome to Your Vue.js App" />
-    <FahadLibSample></FahadLibSample>
+    <h1>8084</h1>
+    <HelloWorld></HelloWorld>
   </div>
 </template>
 
 <script>
-import FahadLibSample from "fahad-lib/src/lib-components/fahad-lib-sample";
+import HelloWorld from 'module-c/src/components/HelloWorld'
 export default {
   name: "App",
   components: {
-    FahadLibSample,
+    HelloWorld
   },
 };
 </script>
